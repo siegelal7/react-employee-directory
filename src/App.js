@@ -1,11 +1,9 @@
-import Navbar from "./components/Navi";
-import SearchBar from "./components/SearchBar";
+import Main from "./components/Main";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <SearchBar />
+      <Main />
     </div>
   );
 }

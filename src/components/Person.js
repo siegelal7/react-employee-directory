@@ -5,17 +5,19 @@ const style = {
 };
 
 class Person extends Component {
-  handleSort = (e) => {
-    // e.preventDefault();
-    console.log(e.target);
-  };
+  state = { people: this.props };
+
+  componentDidMount() {
+    this.setState({ people: this.props.person });
+  }
+
   render() {
     return (
       <table className="table table-striped">
         <thead>
           <tr>
             <th scope="col">Image</th>
-            <th scope="col" onClick={this.handleSort}>
+            <th scope="col" onClick={this.props.clickEvent}>
               Name
             </th>
             <th scope="col">Email</th>

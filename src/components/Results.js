@@ -1,6 +1,6 @@
 import React from "react";
 import PersonCard from "./Person";
-import Navbar from "./Navi";
+import Navbar from "./Navbar";
 // import axios from "axios";
 const style = {
   marginTop: "0.5%",
