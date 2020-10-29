@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navi";
 import SearchBar from "./components/SearchBar";
 
 function App() {
