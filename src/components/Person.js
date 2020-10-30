@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./style/Person.css";
 
 const style = {
   height: "12vh",
@@ -17,7 +18,7 @@ class Person extends Component {
         <thead>
           <tr>
             <th scope="col">Image</th>
-            <th scope="col" onClick={this.props.clickEvent}>
+            <th id="nameHeader" scope="col" onClick={this.props.clickEvent}>
               Name
             </th>
             <th scope="col">Email</th>
