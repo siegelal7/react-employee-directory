@@ -6,15 +6,15 @@
   ## Table of contents
   * [Description](#Description)
   * [Installation](#Installation)
-  * [Usage](#Usage)
+  * [Usage](#How to Use)
   * [License](#License)
   * [Technologies](#Technologies)
   * [Contribution](#Contribution)
   * [Tests](#Tests)
   * [Questions](#Questions)
 
-  ## Usage
-  Navigate to the web page https://siegelal7.github.io/react-employee-directory/.
+  ## How to Use
+  Navigate to https://siegelal7.github.io/react-employee-directory/.
 
   ## License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
