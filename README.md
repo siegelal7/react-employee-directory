@@ -6,14 +6,14 @@
   ## Table of contents
   * [Description](#Description)
   * [Installation](#Installation)
-  * [How to Use](#How to Use)
+  * [Usage](#Usage)
   * [License](#License)
   * [Technologies](#Technologies)
   * [Contribution](#Contribution)
   * [Tests](#Tests)
   * [Questions](#Questions)
 
-  ## How to Use
+  ## Usage
   Navigate to https://siegelal7.github.io/react-employee-directory/.
 
   ## License
