@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/style/Person.css"],"names":[],"mappings":"AAAA,YACE,cACF","file":"main.43db4145.chunk.css","sourcesContent":["#nameHeader {\r\n  cursor: pointer;\r\n}\r\n"]}
