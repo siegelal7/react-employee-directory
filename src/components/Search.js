@@ -15,19 +15,12 @@ const Search = (props) => {
           onChange={props.handleInputChange}
           type="text"
           value={props.search}
-          placeholder="search"
+          placeholder="search by first name"
           name="search"
           id="search"
         />
       </form>
-      {/* {this.state.results.map((i) => (
-    <PersonCard
-      firstName={i.name.first}
-      lastName={i.name.last}
-      phone={i.cell}
-      email={i.email}
-    />
-  ))} */}
+
       <PersonCard person={props.searchRes} clickEvent={props.handleSort} />
     </>
   );

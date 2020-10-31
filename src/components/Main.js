@@ -9,6 +9,7 @@ class Main extends Component {
     results: [],
     searchRes: [],
   };
+
   handleInputChange = (e) => {
     const { name, value } = e.target;
     // console.log(name, value);
@@ -21,22 +22,23 @@ class Main extends Component {
       //   console.log(this.state.results.name.first);
     });
   }
-  //TODO: doesnt appear to work properly
+
   handleSubmit = (e) => {
     e.preventDefault();
     // console.log(this.state.results);
     let searchVal = this.state.search;
     const res = [];
     for (let i = 0; i < this.state.results.length; i++) {
-      const testee = this.state.results[i].name.first;
+      const firstName = this.state.results[i].name.first;
 
-      if (testee === searchVal) {
+      if (firstName === searchVal) {
         // console.log(this.state.results[i]);
         res.push(this.state.results[i]);
       }
     }
     this.setState({ searchRes: res });
   };
+
   handleSort = (e) => {
     const ppl = this.state.results;
     const arr = [];
@@ -60,11 +62,6 @@ class Main extends Component {
   handleNavClick = (e) => {
     this.setState({ searchRes: this.state.results });
   };
-
-  //TODO: gotta refactor to pass this down as prop or call navbar in this file
-  //   resetPage() {
-  //     this.setState({ searchRes: this.state.results });
-  //   }
 
   render() {
     return (
